@@ -1,6 +1,4 @@
 datasets/
-models/
-*.db
-test_audio/
 outputs/
 prediction_output/
+*.db
