@@ -1,34 +1,29 @@
-# 🫁 AI-Based Airway Obstruction Detection
+# AI-Based Airway Obstruction Detection
 
-An AI-powered respiratory screening platform that analyzes breathing sounds to detect potential airway obstruction using Machine Learning. The system provides real-time prediction, patient history tracking, graphical analysis, and automated PDF report generation through an interactive Streamlit web application.
+## Overview
 
----
+AI-Based Airway Obstruction Detection is a machine learning-based respiratory screening platform designed to analyze breathing sound recordings for the early detection of airway obstruction. The system integrates digital signal processing, machine learning, FastAPI, Streamlit, and SQLite to provide real-time prediction, patient history tracking, visualization, and automated PDF report generation.
 
-## 📌 Project Overview
-
-Airway obstruction can significantly impact respiratory health if not detected early. This project provides an intelligent screening platform that processes breathing sound recordings and predicts whether an airway obstruction is present.
-
-The application combines Machine Learning, Digital Signal Processing, FastAPI, Streamlit, and SQLite into a complete diagnostic workflow.
-
-> **Note:** This application is intended for educational and research purposes only and is **not a replacement for professional medical diagnosis.**
+This project aims to assist healthcare professionals by providing an intelligent screening tool for respiratory assessment. It is intended for educational and research purposes and should not be considered a replacement for professional medical diagnosis.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🎙 Upload breathing sound (.wav) files
-- 🤖 AI-based airway obstruction prediction
-- 📊 Confidence score visualization
-- 📈 Patient history tracking
-- 🗂 SQLite database integration
-- 📄 Automatic PDF report generation
-- 🌐 Interactive Streamlit dashboard
-- ⚡ FastAPI backend for prediction services
-- 🫁 Bio-Inspired Adaptive Airway Intelligence System (BAAIS)
+- Machine Learning-based airway obstruction prediction
+- Breathing sound analysis using Librosa
+- FastAPI backend for prediction services
+- Interactive Streamlit web application
+- Patient information management
+- SQLite database for maintaining patient history
+- Automatic PDF diagnostic report generation
+- Confidence score visualization
+- Historical prediction analysis
+- Modular and scalable project architecture
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ```
                     Streamlit Frontend
@@ -46,7 +41,7 @@ The application combines Machine Learning, Digital Signal Processing, FastAPI, S
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python
 - Streamlit
@@ -62,10 +57,10 @@ The application combines Machine Learning, Digital Signal Processing, FastAPI, S
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-AI-Airway-Obstruction-Detection
+AI-Airway-Obstruction-Detection/
 │
 ├── labels/
 ├── models/
@@ -75,6 +70,9 @@ AI-Airway-Obstruction-Detection
 │   ├── predict.py
 │   ├── train_cnn.py
 │   ├── extract_features.py
+│   ├── create_labels.py
+│   ├── read_audio.py
+│   ├── read_annotation.py
 │   └── ...
 │
 ├── test_audio/
@@ -85,7 +83,7 @@ AI-Airway-Obstruction-Detection
 
 ---
 
-## ⚙ Installation
+## Installation
 
 Clone the repository
 
@@ -93,13 +91,13 @@ Clone the repository
 git clone https://github.com/rvitmonisha/AI-Airway-Obstruction-Detection.git
 ```
 
-Move into the project
+Navigate to the project directory
 
 ```bash
 cd AI-Airway-Obstruction-Detection
 ```
 
-Install the required packages
+Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -107,7 +105,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶ Running the Project
+## Running the Application
 
 ### Start the FastAPI Backend
 
@@ -121,63 +119,55 @@ python src/api.py
 streamlit run src/streamlit_app.py
 ```
 
-Open your browser at
-
-```
-http://localhost:8501
-```
+After launching the application, open the local URL displayed in the terminal (typically `http://localhost:8501`) in your web browser.
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 1. Enter patient information.
-2. Upload a breathing sound (.wav).
-3. Audio is processed using Librosa.
-4. Features are extracted.
-5. Machine Learning model predicts airway obstruction.
-6. BAAIS adjusts confidence scores.
-7. Results are stored in SQLite.
-8. PDF report is generated.
-9. Patient history graphs are updated.
+2. Upload a breathing sound (.wav) file.
+3. Audio features are extracted using Librosa.
+4. The trained machine learning model predicts airway obstruction.
+5. Prediction confidence is refined using the Bio-Inspired Adaptive Airway Intelligence System (BAAIS).
+6. Results are stored in the SQLite database.
+7. A downloadable PDF diagnostic report is generated.
+8. Historical patient records are visualized in the dashboard.
 
 ---
 
-## 📊 Output
-
-The system provides:
-
-- Airway obstruction prediction
-- Prediction confidence
-- Probability graphs
-- Patient history
-- Downloadable PDF report
-
----
-
-## 📌 Future Enhancements
+## Future Enhancements
 
 - Cloud deployment
 - Multi-class respiratory disease detection
-- Deep learning model improvements
-- Mobile application
-- Doctor login portal
+- Enhanced deep learning models
+- Mobile application support
 - Hospital database integration
+- Doctor authentication and patient management portal
 
 ---
 
-## ⚠ Disclaimer
+## Disclaimer
 
-This project is intended solely for educational and research purposes. The predictions generated by this system should not be considered medical advice or used as a substitute for professional clinical diagnosis.
-
----
-
-## 👨‍💻 Contributors
-
-| Name | Role |
-|------|------|
-| **M N Monisha** | Lead Interface Development, Database Integration, PDF Report Generation, System Integration |
-| **Gagan U H** | Signal Processing, Machine Learning Model Development, FastAPI Backend |
+This project is developed solely for educational and research purposes. The predictions generated by this system are intended to assist in preliminary respiratory screening and should not be used as a substitute for professional medical diagnosis or clinical decision-making.
 
 ---
 
+## Authors
+
+| Name | Role | GitHub |
+|------|------|--------|
+| **M N Monisha** | Frontend Development, Database Integration, PDF Report Generation, System Integration | https://github.com/rvitmonisha |
+| **Gagan U H** | Machine Learning, Signal Processing, FastAPI Backend Development | https://github.com/GaganUH |
+
+---
+
+## Acknowledgment
+
+This project was collaboratively developed by **M N Monisha** and **Gagan U H** as part of an academic Machine Learning project. Both contributors participated in the design, implementation, testing, and integration of different system components.
+
+---
+
+## License
+
+This project is developed for academic and educational purposes.
