@@ -6,14 +6,12 @@ AI Airway Obstruction Detection is a Machine Learning-based application that det
 
 ---
 
-##  Features
+## Features
 
--Decoupled Architecture: Features an isolated FastAPI backend microservice alongside a high-fidelity Streamlit web client.
--Respiratory Sound Analysis: Processes `.wav` lung audio cycles using Short-Time Fourier Transform (STFT) windowing grids.
--BAAIS Core Analytics: Utilizes the Bio-Inspired Adaptive Airway Intelligence System to compute real-time structural compliance profiles.
--Longitudinal Persistence: Records transaction records inside a local SQLite ledger (`airway_history.db`) to chart multi-run risk paths.
--Automated PDF Compiler:Generates download-ready clinical diagnostic documents via automated report generation.
-
+* **Decoupled Architecture:** Full structural separation of layers via an isolated FastAPI backend microservice and a premium Streamlit web interface.
+* **Respiratory Sound Analysis:** Processes `.wav` lung audio cycles using Short-Time Fourier Transform (STFT) matrix windowing to output color frequency spectrograms.
+* **BAAIS Core Analytics Engine:** Utilizes the *Bio-Inspired Adaptive Airway Intelligence System* to dynamically analyze frequency-based thresholds and calculate real-time airway compliance indexes.
+* **Longitudinal Data Persistence:** Records logged patient encounters inside a local SQLite ledger (`airway_history.db`) to generate continuous multi-run risk trajectory line charts.
 ---
 
 ##  Tech Stack
