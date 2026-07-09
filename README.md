@@ -93,21 +93,24 @@ Upload a voice/audio file and view the prediction.
 ## 📸 Screenshots
 
 ### Home Page
-[View Screenshot]https://drive.google.com/file/d/1WVKeHw5af_3R0EKOy5Nu1cheLybjUc8r/view?usp=drive_link
+[View Screenshot](https://drive.google.com/file/d/1WVKeHw5af_3R0EKOy5Nu1cheLybjUc8r/view?usp=drive_link)
 
 ### Patient history
-[View Screenshot]https://drive.google.com/file/d/1t6SiV99veI3N6l6ZO1etEbqs9wyMKzt4/view?usp=drive_link
+[View Screenshot](https://drive.google.com/file/d/1t6SiV99veI3N6l6ZO1etEbqs9wyMKzt4/view?usp=drive_link)
 
-### spectrogram
-[View Screenshot]https://drive.google.com/file/d/1MASDayk2Z7z7_PL5jQT3X2rXAxmCQYS6/view?usp=drive_link
+### Spectrogram
+[View Screenshot](https://drive.google.com/file/d/1MASDayk2Z7z7_PL5jQT3X2rXAxmCQYS6/view?usp=drive_link)
 
 ### Prediction Result
-[View Screenshot]https://drive.google.com/file/d/1liWtroeESdQtw5XISVLQh7aCrZmM20tN/view?usp=drive_link
+[View Screenshot](https://drive.google.com/file/d/1liWtroeESdQtw5XISVLQh7aCrZmM20tN/view?usp=drive_link)
 
-### Output
+### Output1
 
-[View Screenshot]https://drive.google.com/file/d/1WjKB5URfkeJL_Hlf1455XXKsCq7ssY84/view?usp=drive_link
-[View Screenshot]https://drive.google.com/file/d/1u_G0uUAKITOTHXSyYWLdHMMBzqO1vzBF/view?usp=drive_link
+[View Screenshot](https://drive.google.com/file/d/1WjKB5URfkeJL_Hlf1455XXKsCq7ssY84/view?usp=drive_link)
+
+
+### Output2
+[View Screenshot](https://drive.google.com/file/d/1u_G0uUAKITOTHXSyYWLdHMMBzqO1vzBF/view?usp=drive_link)
 
 ---
 
