@@ -164,14 +164,14 @@ The application provides:
 - Hospital database integration
 - Real-time respiratory monitoring
 
----
+---Machine Learning, Signal Processing, FastAPI Backend Development
 
 ## Authors
 
 | Name | Role | GitHub |
 |------|------|--------|
-| **M N Monisha** | Frontend Development, Database Integration, PDF Report Generation, System Integration | https://github.com/rvitmonisha |
-| **Gagan U H** | Machine Learning, Signal Processing, FastAPI Backend Development | https://github.com/GaganUH |
+| **M N Monisha**  | https://github.com/rvitmonisha |
+| **Gagan U H**  | https://github.com/GaganUH |
 
 ---
 
