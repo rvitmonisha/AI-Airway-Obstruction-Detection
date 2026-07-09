@@ -81,7 +81,7 @@ Upload a voice/audio file and view the prediction.
 
 ---
 
-## 📊 Model Information
+## 📊 Model Information & Architecture
 
 ### Ingestion & Feature Extraction Pipeline
 The platform implements a dynamic Digital Signal Processing (DSP) pipeline to convert raw acoustic waves into machine-learning-ready features. Rather than analyzing flat audio data, the system applies **Short-Time Fourier Transform (STFT)** matrix windowing to break down 1D time-series breathing recordings into time-frequency spectrogram representations.
