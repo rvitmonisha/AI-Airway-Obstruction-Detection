@@ -106,7 +106,7 @@ The system is validated and optimized utilizing the industry-standard **ICBHI 20
 
 ---
 
-## 📸 Project Interface Deep Dive
+##  Project Interface Deep Dive
 
 * **Home Page Dashboard:** A premium medical interface featuring a streamlined drag-and-drop ingestion panel that supports real-time raw `.wav` respiratory audio file uploads.
 * **Clinical Metadata Input Module:** A comprehensive clinical sidebar used to capture vital patient tracking telemetry, including demographics (Age, Biological Sex), cohort registry classifications, chronic disease contexts (Asthma and COPD indicators), and environmental stressors (AQI and Local Humidity metrics).
