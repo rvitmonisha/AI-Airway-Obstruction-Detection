@@ -4,13 +4,13 @@
 
 AI-Based Airway Obstruction Detection is a machine learning-based respiratory screening platform developed to analyze breathing sound recordings for the early detection of airway obstruction. The system integrates digital signal processing, machine learning, FastAPI, Streamlit, and SQLite to provide real-time prediction, patient history tracking, visualization, and automated PDF report generation.
 
-The platform is designed as an intelligent screening tool that assists healthcare professionals by analyzing respiratory sounds and generating predictive insights.
+The platform is designed to assist healthcare professionals by providing intelligent respiratory sound analysis and predictive insights.
 
 ---
 
 ## Features
 
-- Machine Learning-based airway obstruction prediction
+- Machine learning-based airway obstruction prediction
 - Respiratory sound analysis using Librosa
 - FastAPI backend for prediction services
 - Interactive Streamlit web application
@@ -59,19 +59,7 @@ The platform is designed as an intelligent screening tool that assists healthcar
 
 ## Dataset
 
-This project utilizes the **ICBHI 2017 Respiratory Sound Database**, a benchmark dataset widely used for respiratory sound classification and pulmonary disease research.
-
-**Dataset:** ICBHI 2017 Respiratory Sound Database
-
-**Description**
-
-- Respiratory sound recordings collected from patients with various pulmonary conditions.
-- Includes normal and abnormal breathing sounds such as wheezes and crackles.
-- Used for training and evaluating the machine learning model.
-
-**Source**
-
-https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge
+The machine learning model was trained and evaluated using the **ICBHI 2017 Respiratory Sound Database**, which was accessed through **Kaggle**.
 
 ---
 
@@ -137,7 +125,7 @@ Launch the Streamlit application.
 streamlit run src/streamlit_app.py
 ```
 
-Open the local URL displayed in the terminal (typically **http://localhost:8501**) in your browser.
+Open the local URL displayed in the terminal (typically `http://localhost:8501`) in your web browser.
 
 ---
 
@@ -161,7 +149,7 @@ The application provides:
 - Airway obstruction prediction
 - Prediction confidence score
 - Interactive patient history visualization
-- Automatic PDF report generation
+- Automatic PDF diagnostic report generation
 - Real-time prediction through FastAPI and Streamlit
 
 ---
