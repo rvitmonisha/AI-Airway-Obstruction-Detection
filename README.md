@@ -144,12 +144,9 @@ Download sample audio files from the following folder : https://drive.google.com
 
 ##  Future Enhancements
 
-- Improve prediction accuracy
-- Deploy as a web application
-- Real-time voice prediction
-- Mobile application integration
-- Cloud deployment
-
+- Integrate deep learning model backbones (such as CNN architectures) directly into the backend feature pipeline to cross-verify metrics.
+- Package the backend and frontend into Docker containers for seamless cloud deployment (AWS/GCP).
+- Develop a dedicated mobile application client that interacts directly with the existing FastAPI endpoint routes.
 ---
 
 ##  Author
