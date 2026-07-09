@@ -116,7 +116,7 @@ Upload a voice/audio file and view the prediction.
 
 ##  Sample Audio
 
-Example audio files are available in the `https://drive.google.com/drive/folders/13g6m5amgxxoHj1yRWMAnQ6NUKVjrXTOt?usp=drive_link` folder.
+Download sample audio files from the following folder : https://drive.google.com/drive/folders/13g6m5amgxxoHj1yRWMAnQ6NUKVjrXTOt?usp=drive_link
 
 ---
 
