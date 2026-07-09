@@ -1,12 +1,12 @@
-# 🫁 AI Airway Obstruction Detection
+# AI Airway Obstruction Detection
 
-## 📌 Project Overview
+## Project Overview
 
 AI Airway Obstruction Detection is a Machine Learning-based application that detects airway obstruction from voice/audio recordings. The system analyzes the input audio and predicts whether an airway obstruction is present, enabling early screening and assisting healthcare professionals.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Voice-based airway obstruction detection
 - Machine Learning prediction model
@@ -17,7 +17,7 @@ AI Airway Obstruction Detection is a Machine Learning-based application that det
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - Machine Learning
@@ -30,7 +30,7 @@ AI Airway Obstruction Detection is a Machine Learning-based application that det
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 AI-Airway-Obstruction-Detection/
@@ -46,7 +46,7 @@ AI-Airway-Obstruction-Detection/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Clone the repository
 
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 Run the main application.
 
@@ -111,13 +111,13 @@ https://drive.google.com/file/d/1u_G0uUAKITOTHXSyYWLdHMMBzqO1vzBF/view?usp=drive
 
 ---
 
-## 📁 Sample Audio
+##  Sample Audio
 
-Example audio files are available in the `https://drive.google.com/file/d/1vdgixpD6mcSdIgexmgyloEt2U1WBJSfr/view?usp=sharing` folder.
+Example audio files are available in the `https://drive.google.com/drive/folders/13g6m5amgxxoHj1yRWMAnQ6NUKVjrXTOt?usp=drive_link` folder.
 
 ---
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 - Improve prediction accuracy
 - Deploy as a web application
@@ -127,7 +127,7 @@ Example audio files are available in the `https://drive.google.com/file/d/1vdgix
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **M N Monisha**
 
@@ -135,4 +135,4 @@ CSE Student | AI/ML Enthusiast | Frontend Developer
 
 GitHub: https://github.com/rvitmonisha
 
-LinkedIn: (Add your LinkedIn profile)
+LinkedIn: (www.linkedin.com/in/m-n-monisha)
