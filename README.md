@@ -177,7 +177,7 @@ This project is intended solely for educational and research purposes. The predi
 | Name | Role |
 |------|------|
 | **M N Monisha** | Lead Interface Development, Database Integration, PDF Report Generation, System Integration |
-| **Gagan** | Signal Processing, Machine Learning Model Development, FastAPI Backend |
+| **Gagan U H** | Signal Processing, Machine Learning Model Development, FastAPI Backend |
 
 ---
 
