@@ -168,8 +168,8 @@ The application provides:
 
 ## Authors
 
-| Name | Role | GitHub |
-|------|------|--------|
+| Name |  GitHub |
+|------|--------|
 | **M N Monisha**  | https://github.com/rvitmonisha |
 | **Gagan U H**  | https://github.com/GaganUH |
 
